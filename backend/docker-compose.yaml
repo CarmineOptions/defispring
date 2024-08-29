@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  api:
+    image: europe-west1-docker.pkg.dev/carmine-api-381920/docker-repository/defi-distribution-backend:1.10.0
+    ports:
+      - 8080:8080
