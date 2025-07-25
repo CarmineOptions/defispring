@@ -4,7 +4,7 @@ WORKDIR /build
 COPY . .
 RUN cargo build --release
 
-FROM debian:buster-slim
+FROM debian:bookworm-slim
 
 WORKDIR /app
 
